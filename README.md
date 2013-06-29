@@ -32,6 +32,7 @@ angular.module('ui.alias').constant('uiAliasConfig', {
 	date: '<input ui-date ui-date-format="mm/dd/yyyy">'
 
 });
+```
 
 ## Notes
 
