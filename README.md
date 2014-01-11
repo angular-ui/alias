@@ -23,13 +23,14 @@ Now you can **ALIAS** it!
 
 ```js
 angular.module('ui.alias').constant('uiAliasConfig', {
-	'alias': '<template dir1 dir2 options="customConfigScopeVar"></template>',
+	'alias': '<template dir1 dir2 options="customConfigScopeVar"></template>', // becomes <alias>
 	'alias2': {
 		template: '<another-template></another-template>',
 		restrict: 'AEC'
 	}
 	// Example:
 	date: '<input ui-date ui-date-format="mm/dd/yyyy">'
+	// becomes: <date>
 
 });
 ```
