@@ -38,6 +38,6 @@ angular.module('ui.alias').constant('uiAliasConfig', {
 ## Notes
 
 * Be careful to avoid creating an alias that fires recursively  
-  Example: `<button>` -> `<ui-button>` -> `<button>`
+  Example: `<button>` &rarr; `<ui-button>` &rarr; `<button>`
 * You cannot override existing directives. Both the original *and* your alias directives will execute.
 * You can create multiple an alias for different configurations of the same directives / templates
